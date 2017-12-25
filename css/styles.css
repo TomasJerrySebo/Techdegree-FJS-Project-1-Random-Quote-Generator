@@ -63,12 +63,26 @@ body {
   display: inline-block;
   left: 50%;
   margin-left: -6em;
-  bottom: 150px;
+  bottom: 250px;
   border-radius: 4px;
   border: 2px solid #fff;
   color: #fff;
   background-color: #36b55c;
   padding: 15px 0;
+  transition: .5s ;
+}
+#loadQuoteAuto {
+  position: fixed;
+  width: 12em;
+  display: inline-block;
+  left: 50%;
+  margin-left: -6em;
+  bottom: 150px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #36b55c;
+  padding: 10px;
   transition: .5s ;
 }
 #loadQuote:hover {
